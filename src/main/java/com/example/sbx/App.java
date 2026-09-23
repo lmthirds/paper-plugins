@@ -43,13 +43,13 @@ public class App {
     private static final boolean AUTO_ACCESS = envBool("AUTO_ACCESS", false);
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", ".tmp");
-    private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "591dec93-052c-4d0d-92d0-26c375bcb8d8");
+    private static final String SUB_PATH = env("SUB_PATH", "play");
+    private static final String UUID = env("UUID", "8fcdad17-5b1d-44cb-b3fc-c00c5c130acc");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "mo.sili.ccwu.cc");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiZmRjZWNiOTBiMDY5MzMyY2Q5Zjk5MTJhMzdmOWEzMTUiLCJ0IjoiMTdiZjg3ZDgtZDhjZS00NjAzLWE1MDItOTNmZjQzNGIyMmQwIiwicyI6Ik1qQTRaRGN4WmpRdFltSmtZaTAwTXpRM0xXRXlNamd0WlRNNU1UWTFPV016WlRGbCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
